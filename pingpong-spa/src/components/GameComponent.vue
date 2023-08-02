@@ -1,11 +1,22 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div class="card" style="width: 20rem">
-    <img src="..." class="card-img-top" alt="..." />
-    <div class="card-body">
-      <p class="card-text">card view</p>
-      <button type="button" class="btn btn-primary">hello</button>
-    </div>
+  <div class="card" id="game-component">
+    <img id="game-image" src="../assets/dutch-learning-image.jpg" class="card-img-top" alt="..." />
+    <div class="card-body"></div>
   </div>
 </template>
+
+<style>
+#game-component {
+  background-color: yellow;
+  width: 40rem;
+  height: 40rem;
+  margin: auto;
+}
+#game-image {
+  padding-left: 1rem;
+  width: 39rem;
+  height: 30rem;
+}
+</style>

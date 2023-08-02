@@ -1,9 +1,11 @@
 <script setup lang="ts">
-import { RouterView } from 'vue-router'
 import GameComponent from './components/GameComponent.vue'
+import PaginationComponent from './components/PaginationComponent.vue'
+import { RouterView } from 'vue-router'
 </script>
 
 <template>
-  <header></header>
-  <GameComponent />
+  <RouterView />
+  <!-- <GameComponent />
+  <PaginationComponent /> -->
 </template>
